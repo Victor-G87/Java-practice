@@ -58,6 +58,42 @@ public class HelloWorld {
         char gender = 'm';
         boolean lookingForJob = true;
 
+        // declare initial balance
+        double balance = 20000.99;
+        // declare deposit amount
+        double depositAmount = 1000.00;
+        // store result of calculation in our original variable
+        balance = balance + depositAmount;
+
+        int zebrasInZoo = 8;
+        int giraffesInZoo = 4;
+
+
+        //Changing value of variables
+        int animalsInZoo = zebrasInZoo + giraffesInZoo;
+        System.out.println(animalsInZoo + " " + "animals");
+        int numZebrasAfterTrade = zebrasInZoo - 2;
+        System.out.println(numZebrasAfterTrade + " " + "zebras");
+
+
+        //Division has different results with integers. The / operator does integer division, which means that any remainder is lost.
+        int evenlyDivided = 10 / 5;
+//ev    enlyDivided holds 2, because 10 divided by 5 is 2
+        int unevenlyDivided = 10 / 4;
+//un    evenlyDivided holds 2, because 10 divided by 4 is 2.5
+
+        double subtotal = 30;
+        double tax = 0.0875;
+        double total = subtotal * tax + subtotal;
+        System.out.println(total + " " + "amount");
+
+        double perPerson = total/4 ;
+        System.out.println(perPerson + " " + "per Person");
+
+        int students = 26;
+        int leftOut = 26 % 3;
+        System.out.println(leftOut + " " + "left out");
+
 
 
 
