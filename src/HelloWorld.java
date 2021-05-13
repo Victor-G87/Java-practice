@@ -33,11 +33,37 @@ public class HelloWorld {
         number /= 2; // Value is now 12
         number %= 7; // Value is now 5
 
+        /* ORDER OF OPPERATIONS
+        Parentheses
+        Multiplication
+        Division
+        Modulo
+        Addition
+        Subtraction
+         */
+
 
 
         //BOOLEANS. We declare boolean variables by using the keyword boolean before the variable name.
         boolean javaIsACompiledLanguage = true;
         boolean javaIsACupOfCoffee = false;
+
+        int songsA = 9;
+        int songsB = 9;
+        int albumLengthA = 41;
+        int albumLengthB = 53;
+
+        boolean sameNumberOfSongs = songsA == songsB;
+        boolean differentLength = albumLengthA != albumLengthB;
+
+        double recommendedWaterIntake = 8;
+        double daysInChallenge = 30;
+        double yourWaterIntake = 235.5;
+
+        double totalRecommendedAmount = recommendedWaterIntake * daysInChallenge;
+
+        boolean isChallengeComplete = yourWaterIntake >= totalRecommendedAmount;
+        System.out.println(isChallengeComplete + "" + "water intake");
 
 
 
@@ -49,6 +75,18 @@ public class HelloWorld {
 
         //STRINGs
         String greeting = "Hello World";
+
+
+        //.equals()
+        String person1 = "Paul";
+        String person2 = "John";
+        String person3 = "Paul";
+
+        System.out.println(person1.equals(person2));
+        // Prints false, since "Paul" is not "John"
+
+        System.out.println(person1.equals(person3));
+        // Prints true, since "Paul" is "Paul"
 
 
 
@@ -93,6 +131,17 @@ public class HelloWorld {
         int students = 26;
         int leftOut = 26 % 3;
         System.out.println(leftOut + " " + "left out");
+
+        //Compound Assignment Operators
+        int numCupcakes = 12;
+//        numCupcakes = numCupcakes + 8; // Value is now 20
+        numCupcakes += 8; // Value is now 20
+        System.out.println(numCupcakes);
+
+        int numCookies = 17;
+        numCookies -= 3;
+        numCookies /=2;
+        System.out.println(numCookies + " " + "cookies left");
 
 
 
