@@ -35,6 +35,32 @@ public class HelloWorld {
 
 
 
+        //BOOLEANS. We declare boolean variables by using the keyword boolean before the variable name.
+        boolean javaIsACompiledLanguage = true;
+        boolean javaIsACupOfCoffee = false;
+
+
+
+        //CHAR . wrapped in single quotes
+        char grade = 'A';
+        char firstLetter = 'p';
+        char punctuation = '!';
+
+
+        //STRINGs
+        String greeting = "Hello World";
+
+
+
+        String firstName = "Victor";
+        int ageTwo = 33;
+        double desiredSalary = 75000;
+        char gender = 'm';
+        boolean lookingForJob = true;
+
+
+
+
         System.out.println("Hello World!");
         System.out.println("Hello World");
 
@@ -55,6 +81,12 @@ public class HelloWorld {
         System.out.println(age +" " + name + " " + yearFounded);
         System.out.println(numberOfPrimitiveTypes);
         System.out.println(androidShare);
+        System.out.println(javaIsACompiledLanguage);
+        System.out.println(desiredSalary);
+
+        // Prints: "Hello World"
+        System.out.println("\"Hello World\"");
+
     }
 
 
