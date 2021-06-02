@@ -17,6 +17,7 @@ public class Store {
         System.out.println("Come spend some money!");
     }
 
+
     // main method
     public static void main(String[] args) {
         Store lemonadeStand = new Store("lemonade", 42, .99);
